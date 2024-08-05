@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.login-container {
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-box, .signup-box, .app-download {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.login-box {
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Billabong', cursive; /* Instagram-like font */
+}
+
+.textbox {
+    margin-bottom: 10px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3180e0;
+}
+
+.separator {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.separator:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+    margin-left: .25em;
+}
+
+.facebook-login {
+    margin-top: 10px;
+}
+
+.btn-facebook {
+    width: 100%;
+    padding: 10px;
+    background-color: #4267B2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-facebook:hover {
+    background-color: #365899;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #00376b;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.signup-box p, .app-download p {
+    font-size: 14px;
+}
+
+.signup-box a {
+    color: #3897f0;
+    text-decoration: none;
+}
+
+.signup-box a:hover {
+    text-decoration: underline;
+}
+
+.download-buttons a {
+    display: inline-block;
+    margin: 5px;
+}
+
+.download-buttons img {
+    width: 120px;
+}
+
